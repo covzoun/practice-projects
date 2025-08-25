@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Day 5</title>
+    <link rel="stylesheet" href="/styles/day-05.css"></link>
+  </head>
+  <body onkeydown="checkEvent(event);">
+    <input class="user-input">
+    <button onclick="scanText();">
+      Scan
+    </button>
+
+
+
+    <br><br>
+
+
+
+    <input class="num-1-input">
+    <input class="num-2-input">
+    <button onclick = "addNumbers();">
+      Add
+    </button>
+
+
+
+    <br><br>
+
+
+
+    <input class="array-input">
+    <button onclick="addToList();">
+      Add to List
+    </button>
+    <ul class="user-list"></ul>
+
+
+
+    <br><br>
+
+
+
+    <input class="user-guess" placeholder="0 - 10">
+    <button onclick="guessNumber();">
+      Guess
+    </button>
+    <script src="/scripts/day-05.js"></script>
+  </body>
+</html>
