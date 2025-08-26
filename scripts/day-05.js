@@ -94,6 +94,8 @@ function addToList() {
 
 /*------------------------*/
 
+
+
 function guessNumber() {
   const computerNumber = Math.floor(Math.random() * 11);
   const userGuess = Number(document.querySelector('.user-guess').value);
